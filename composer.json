@@ -1,0 +1,18 @@
+{
+    "name": "ksfraser/gedcom",
+    "description": "GEDCOM 5.5 parsing and generation library - Framework-agnostic import/export business logic",
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Ksfraser\\CRM\\GEDCOM\\": "src/Ksfraser/CRM/GEDCOM/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "stable"
+}
