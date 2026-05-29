@@ -89,11 +89,12 @@ class ImportService
                 : null;
 
             if ($husbandId !== null && $wifeId !== null) {
+                $marriageEvent = $family->getMarriageEvent();
                 $this->relationshipRepo->create(
                     $husbandId, $wifeId, 'spouse',
-                    $family->getMarriageEvent()?->getDate(),
+                    $marriageEvent !== null ? $marriageEvent->getDate() : null,
                     null,
-                    $family->getMarriageEvent()?->getDescription()
+                    $marriageEvent !== null ? $marriageEvent->getDescription() : null
                 );
                 $this->result->addRelationship();
 
