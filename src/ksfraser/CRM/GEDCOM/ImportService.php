@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\CRM\GEDCOM;
+namespace ksfraser\CRM\GEDCOM;
 
-use Ksfraser\CRM\GEDCOM\Contract\EventRepositoryInterface;
-use Ksfraser\CRM\GEDCOM\Contract\PersonRepositoryInterface;
-use Ksfraser\CRM\GEDCOM\Contract\RelationshipRepositoryInterface;
+use ksfraser\CRM\GEDCOM\Contract\EventRepositoryInterface;
+use ksfraser\CRM\GEDCOM\Contract\PersonRepositoryInterface;
+use ksfraser\CRM\GEDCOM\Contract\RelationshipRepositoryInterface;
 
 class ImportService
 {

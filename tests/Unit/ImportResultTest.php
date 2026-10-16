@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\CRM\GEDCOM\Tests\Unit;
+namespace ksfraser\CRM\GEDCOM\Tests\Unit;
 
-use Ksfraser\CRM\GEDCOM\ImportResult;
+use ksfraser\CRM\GEDCOM\ImportResult;
 use PHPUnit\Framework\TestCase;
 
 class ImportResultTest extends TestCase

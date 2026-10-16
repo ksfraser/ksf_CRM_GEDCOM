@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\CRM\GEDCOM\Tests\Unit;
+namespace ksfraser\CRM\GEDCOM\Tests\Unit;
 
-use Ksfraser\CRM\GEDCOM\FamilyData;
-use Ksfraser\CRM\GEDCOM\ParsedGedcomData;
-use Ksfraser\CRM\GEDCOM\PersonData;
+use ksfraser\CRM\GEDCOM\FamilyData;
+use ksfraser\CRM\GEDCOM\ParsedGedcomData;
+use ksfraser\CRM\GEDCOM\PersonData;
 use PHPUnit\Framework\TestCase;
 
 class ParsedGedcomDataTest extends TestCase

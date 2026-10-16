@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\CRM\GEDCOM;
+namespace ksfraser\CRM\GEDCOM;
 
 class GedcomGenerator
 {

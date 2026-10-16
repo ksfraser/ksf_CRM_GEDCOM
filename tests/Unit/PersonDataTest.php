@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\CRM\GEDCOM\Tests\Unit;
+namespace ksfraser\CRM\GEDCOM\Tests\Unit;
 
-use Ksfraser\CRM\GEDCOM\EventData;
-use Ksfraser\CRM\GEDCOM\PersonData;
+use ksfraser\CRM\GEDCOM\EventData;
+use ksfraser\CRM\GEDCOM\PersonData;
 use PHPUnit\Framework\TestCase;
 
 class PersonDataTest extends TestCase
